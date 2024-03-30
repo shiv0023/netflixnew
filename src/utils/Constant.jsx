@@ -10,3 +10,4 @@ export const options = {
   }
 };
 export const Cdn_Url = "https://image.tmdb.org/t/p/w500";
+export const SupportedLanuage = [{ identifier: "Hin", name: "Hindi" }, { identifier: "En", name: "ENglish" }, { identifier: "Span", name: "Spanish" }]

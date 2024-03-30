@@ -7,7 +7,7 @@ const UseNowPlayingMovies = () => {
   const dispatch = useDispatch()
 
   const MyData = async () => {
-    const MyData = await fetch("https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1'", options)
+    const MyData = await fetch("https://api.themoviedb.org/3/movie/now_playing?language=en-IN&page=1'", options)
     const Data = await MyData.json();
     console.log(Data.results)
     dispatch(AddMovies(Data.results))
